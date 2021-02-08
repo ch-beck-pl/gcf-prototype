@@ -1,0 +1,4 @@
+# Project exclude paths
+/func1/target/
+/func2/target/
+/target/
