@@ -53,7 +53,7 @@
                                 </transformer>
                                 <!-- This is needed if you have dependencies that use Service Loader. Most Google Cloud client libraries does. -->
                                 <transformer implementation=
-                                                     "org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                                                     "org.apache.maven.plugins.shade.resource.ServicesResourceTransformer">
                             </transformers>
                         </configuration>
                     </execution>
